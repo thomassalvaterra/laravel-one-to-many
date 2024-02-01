@@ -46,23 +46,15 @@
                             </li>
 
                             <li class="nav-item">
-<<<<<<< HEAD
                                 <a class="nav-link text-white {{ Route::currentRouteName() == 'admin.game.index' ? 'bg-secondary' : '' }}"
                                     href="{{route('admin.game.index')}}">
-=======
-                                <a class="nav-link text-white {{ Route::currentRouteName() == 'admin.game.index' ? 'bg-secondary' : '' }}" href="{{route('admin.game.index')}}">
->>>>>>> 23be3b45635e840f7dbb08dca535d126091ca20b
                                     <i class="fa-solid fa-gears fa-lg fa-fw"></i> Games List
                                 </a>
                             </li>
 
                             <li class="nav-item">
-<<<<<<< HEAD
                                 <a class="nav-link text-white {{ Route::currentRouteName() == 'admin.game.create' ? 'bg-secondary' : '' }}"
                                     href="{{route('admin.game.create')}}">
-=======
-                                <a class="nav-link text-white {{ Route::currentRouteName() == 'admin.game.create' ? 'bg-secondary' : '' }}" href="{{route('admin.game.create')}}">
->>>>>>> 23be3b45635e840f7dbb08dca535d126091ca20b
                                     <i class="fa-solid fa-plus fa-lg fa-fw"></i> Create Project
                                 </a>
                             </li>

@@ -13,5 +13,11 @@ class Game extends Model
         "title",
         "description",
         "thumb",
+        "type_id"
     ];
+
+    public function type()
+    {
+        return $this->belongsTo(type::class);
+    }
 }

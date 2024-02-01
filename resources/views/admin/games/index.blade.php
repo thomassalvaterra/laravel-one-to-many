@@ -8,12 +8,13 @@
             <div class="card">
                 <div class="card-header">{{ $game->title }}</div>
                 <div class="card-body">{{ $game->description }}</div>
-                <div class="card-body">{{ $game->thumb }}</div>
-<<<<<<< HEAD
+                <div class="card-body">
+                    <img src="{{ $game->thumb }}" alt="image">
+                </div>
+                <h6 class="card-subtitle mb-2 text-muted">
+                    {{ $game->type ? $game->type->price : 'senza prezzo' }}
+                </h6>
                 <a type="button" class="btn btn-primary" href="{{ route('admin.game.show', $game->id) }}">Show</a>
-=======
-                <a type="button" class="btn btn-primary" href="{{ route('admin.game.show', $game->id) }}">Shoe</a>
->>>>>>> 23be3b45635e840f7dbb08dca535d126091ca20b
                 <a type="button" class="btn btn-success" href="{{ route('admin.game.edit', $game->id) }}">Edit</a>
                 <form action="{{ route('admin.game.destroy', $game->id) }}" method="POST">
                     @csrf
@@ -31,5 +32,10 @@
     a {
         color: black;
         text-decoration: none
+    }
+
+    img {
+        width: 400px;
+        height: 300px;
     }
 </style>
