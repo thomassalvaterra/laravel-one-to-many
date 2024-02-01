@@ -18,7 +18,7 @@ class GameSeeder extends Seeder
                 'title' => 'Fortnite',
                 'description' => 'Fortnite è una piattaforma di gioco online del 2017, sviluppato da People Can Fly e pubblicato da Epic Games per console e PC.',
                 'thumb' => 'https://i.guim.co.uk/img/media/2df4ac79cb6f21e0bd800ba0a9ef1a19e898580b/164_354_1207_725/master/1207.jpg?width=465&dpr=1&s=none',
-                'type_id' => 3
+                'type_id' => 1
             ],
             [
                 'title' => 'Call Of Duty Modern Warfare',
